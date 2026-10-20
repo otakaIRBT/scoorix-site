@@ -119,9 +119,29 @@
           <article id="products" class="card" aria-labelledby="products-title">
             <span class="eyebrow">Products</span>
             <h2 id="products-title">Our own products.</h2>
-            <span class="product-name">Miletus</span>
-            <p>Plain-language guidance on options positions for everyday investors. Read only: it never places a trade.</p>
-            <span class="note">In development, for iPhone and the web.</span>
+            <div class="product-row">
+              <div class="product-text">
+                <span class="product-name">Miletus</span>
+                <p>Plain-language guidance on options positions for everyday investors. Read only: it never places a trade.</p>
+                <span class="note">In development, for iPhone and the web.</span>
+              </div>
+              <div class="phone" role="img" aria-label="The Miletus app on an iPhone, with sample data: the Calls screen, a holding of 400 ACME shares (300 covered by calls, 100 free), and two calls, one to hold and one Miletus suggests rolling.">
+                <div class="phone-screen" aria-hidden="true">
+                  <span class="phone-eyebrow">THURSDAY, OCT 1</span>
+                  <span class="phone-title">Calls</span>
+                  <div class="phone-card">
+                    <div class="top"><span class="sym">ACME</span><span class="px">$184.20</span></div>
+                    <div class="phone-bar"><span class="cov"></span><span class="free"></span></div>
+                    <div class="split"><span>300 covered by 3 calls</span><span class="mint">100 free</span></div>
+                    <div class="foot"><span>Shares<b>400</b></span><span>Net premium received<b class="mint">$2,940</b></span></div>
+                  </div>
+                  <span class="phone-section">Your calls</span>
+                  <div class="phone-row"><span class="dot" style="background:#7ce8c4"></span><span class="name">ACME $190 · Dec ’26</span><span class="act">Hold</span><span class="chev">›</span></div>
+                  <div class="phone-row"><span class="dot" style="background:#ff9f0a"></span><span class="name">ACME $175 · Nov ’26</span><span class="act attn">Roll</span><span class="chev">›</span></div>
+                  <span class="phone-caption">Sample data, for illustration</span>
+                </div>
+              </div>
+            </div>
           </article>
         </div>
       </section>

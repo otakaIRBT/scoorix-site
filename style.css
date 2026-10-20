@@ -118,3 +118,55 @@ footer { display: flex; gap: 20px; padding: 28px 0 48px; border-top: 1px solid v
 .policy h1 { font-size: 40px; margin-bottom: 8px; }
 .policy h2 { font-size: 21px; margin: 28px 0 8px; }
 .policy p { color: var(--secondary); margin-bottom: 8px; }
+
+/* Miletus, as a small phone with sample data (the app's own Graphite colors) */
+.product-row { display: flex; flex-wrap: wrap; gap: 20px; align-items: center; }
+.product-text { flex: 1 1 220px; min-width: 0; display: flex; flex-direction: column; gap: 12px; }
+.phone {
+  flex: 0 0 200px;
+  margin: 0 auto;
+  width: 200px;
+  height: 400px;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 34px;
+  background: #2a2f3a;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.45);
+}
+.phone-screen {
+  height: 100%;
+  border-radius: 26px;
+  background: #000;
+  color: #f5f5f7;
+  padding: 26px 12px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  overflow: hidden;
+  font-variant-numeric: tabular-nums;
+}
+.phone-eyebrow { font-size: 8px; font-weight: 600; letter-spacing: 0.6px; color: #8e8e93; }
+.phone-title { font-size: 20px; font-weight: 700; letter-spacing: -0.4px; margin-top: -4px; }
+.phone-card { background: #1c1c1e; border-radius: 12px; padding: 10px; display: flex; flex-direction: column; gap: 6px; }
+.phone-card .top { display: flex; justify-content: space-between; align-items: baseline; }
+.phone-card .sym { font-size: 15px; font-weight: 700; }
+.phone-card .px { font-size: 11px; font-weight: 600; }
+.phone-bar { display: flex; height: 5px; border-radius: 3px; overflow: hidden; gap: 2px; }
+.phone-bar .cov { flex: 3; background: #f5f5f7; }
+.phone-bar .free { flex: 1; background: #7ce8c4; }
+.phone-card .split { display: flex; justify-content: space-between; font-size: 8px; color: #d1d1d6; }
+.phone-card .split .mint { color: #7ce8c4; }
+.phone-card .foot { display: flex; justify-content: space-between; font-size: 8px; color: #8e8e93; border-top: 1px solid #2c2c2e; padding-top: 6px; }
+.phone-card .foot b { display: block; font-size: 11px; color: #f5f5f7; }
+.phone-card .foot b.mint { color: #7ce8c4; }
+.phone-section { font-size: 11px; font-weight: 600; margin-top: 2px; }
+.phone-row { display: flex; align-items: center; gap: 7px; background: #1c1c1e; border-radius: 10px; padding: 9px 8px; font-size: 10px; }
+.phone-row .dot { width: 6px; height: 6px; border-radius: 3px; flex-shrink: 0; }
+.phone-row .name { flex: 1; font-weight: 600; }
+.phone-row .act { color: #aeaeb2; }
+.phone-row .act.attn { color: #ffb340; }
+.phone-row .chev { color: #8e8e93; }
+.phone-caption { margin-top: auto; font-size: 7px; color: #636366; text-align: center; }
+.phone-row .name, .phone-card .split span { white-space: nowrap; }
+.phone-row { font-size: 9px; gap: 6px; }
+.phone-card .split { font-size: 7.5px; gap: 6px; }
